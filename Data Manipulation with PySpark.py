@@ -1,4 +1,5 @@
 ###Data Manipulation with PySpark###
+
 ##Create Columns##use .withColumn()
 #First, a string with the name of your new column, and second the new column itself.
 df=df.withColumn("newCol", df.oldCol+1)
